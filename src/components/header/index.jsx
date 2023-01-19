@@ -1,20 +1,21 @@
 import React from 'react'
 import logo from "../../assets/images/logo.png";
+import{Link} from "react-router-dom"
 
-const Header = () => {
+export const Header = () => {
     return (
         <header>
-            <a href="#">
+            <Link to="/">
                 <div className='logo'>
                     <img src={logo} alt='logo' width={150} />
                 </div>
-            </a>
+            </Link>
             <ul>
                 <li>
-                    <a href="#">INICIO</a>
+                    <Link to="/">INICIO</Link>
                 </li>
                 <li>
-                    <a href="">PRODUCTOS</a>
+                    <Link to="/products">PRODUCTOS</Link>
                 </li>
             </ul>
             <div className='cart'>

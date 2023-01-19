@@ -1,6 +1,6 @@
 import React from 'react'
 import img from "../../assets/images/H 01-00.png"
-const ProductList = () => {
+export const ProductList = () => {
     return (
         <>
             <h1 className="title">PRODUCTOS</h1>

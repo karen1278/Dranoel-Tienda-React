@@ -96,21 +96,22 @@ header .cart span {
 .title {
   font-size: 2rem;
   text-align: center;
-  padding: 10rem 0 0 5rem;
+  padding: 10rem 0 0 0;
   color: #8881cc;
 }
 
 .products {
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-  gap: 3rem 1rem;
+  gap: 3rem 2rem;
   box-sizing: border-box;
 }
 
 .product {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   background-color: #FFE07D;
@@ -155,6 +156,8 @@ header .cart span {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 1rem 2rem;
+  padding: 0 1rem;
+  margin: 1rem;
 }
 
 .buttom .btn {
@@ -168,9 +171,8 @@ header .cart span {
   background-color: #E290B6;
   max-width: 250px;
   width: 100%;
-  margin: 0 auto;
   font-size: 1.5rem;
-  color: #cc1369;
+  color: #FFE07D;
   font-weight: 200;
 }
 
@@ -184,12 +186,12 @@ header .cart span {
 }
 
 .buttom div a {
-  color: #4835f3;
+  color: #FFE07D;
   font-weight: 200;
 }
 
 .buttom div a:hover {
-  color: #ffffff;
+  color: #4e40d1;
 }
 
 
