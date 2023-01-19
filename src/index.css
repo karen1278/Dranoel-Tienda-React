@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-
+  font-family: 'Boogaloo', cursive;
 }
 
 #root {
-  background-color: #E1F5FF;
+  background-color: #e1f5ff;
 }
 
 .App {
@@ -31,8 +31,9 @@ header {
   flex-wrap: wrap;
   position: fixed;
   box-sizing: border-box;
-  background-color: E1F5FF;
+  background-color: #E1F5FF;
   box-shadow: 0 5px 10px #c8edff;
+  border-radius: 10px;
 }
 
 a {
@@ -94,8 +95,9 @@ header .cart span {
 
 .title {
   font-size: 2rem;
-  padding: 10 rem 0 0 0;
-  color: aqua;
+  text-align: center;
+  padding: 10rem 0 0 5rem;
+  color: #8881cc;
 }
 
 .products {
@@ -111,17 +113,17 @@ header .cart span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 1px 10px 10px 2px green;
+  background-color: #FFE07D;
   border: 6px solid transparent;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .product:hover {
-  border: 6px solid red;
+  border: 6px solid #faca2f;
 }
 
 .product_img img {
-  width: 310px;
+  width: 200px;
 }
 
 .product_footer {
@@ -131,20 +133,20 @@ header .cart span {
 .product_footer h1 {
   font-weight: 600;
   font-size: 1, 5rem;
-  color: blueviolet;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #938DC8;
+  font-family: 'Boogaloo', cursive;
 }
 
 .product_footer p {
-  font-weight: 700;
-  color: crimson;
+  font-weight: 400;
+  color: black;
   text-transform: uppercase;
   font-size: 18px;
 }
 
 .product_footer .price {
   font-size: 2rem;
-  color: darkmagenta;
+  color: #938DC8;
 }
 
 .product .buttom {
@@ -163,17 +165,17 @@ header .cart span {
 }
 
 .buttom button {
-  background-color: yellowgreen;
+  background-color: #E290B6;
   max-width: 250px;
   width: 100%;
   margin: 0 auto;
   font-size: 1.5rem;
-  color: teal;
-  font-weight: 600;
+  color: #cc1369;
+  font-weight: 200;
 }
 
 .buttom div {
-  background-color: springgreen;
+  background-color: #938DC8;
   display: grid;
   align-items: center;
   text-align: center;
@@ -182,12 +184,12 @@ header .cart span {
 }
 
 .buttom div a {
-  color: purple;
-  font-weight: 700;
+  color: #4835f3;
+  font-weight: 200;
 }
 
 .buttom div a:hover {
-  color: white;
+  color: #ffffff;
 }
 
 
