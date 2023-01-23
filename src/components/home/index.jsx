@@ -8,10 +8,10 @@ export const Home = () => {
       <Link to="/">
         <h1 className='title'>Inicio</h1>
       </Link>
+      <img className='coverimg' src={Cover} alt="inicio" />
       <Link to="/products">
         <h1 className='title'>Productos</h1>
       </Link>
-      <img className='coverimg' src={Cover} alt="inicio" />
     </div>
   )
 }

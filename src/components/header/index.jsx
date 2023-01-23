@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom"
+import { DataContext } from "../../context/Dataprovider"
+
 
 export const Header = () => {
+
+    const value = useContext(DataContext);
+    const [menu, setMenu] = value.menu;
+    const [cart] = value.cart
+
+    const tooglemenu = () => {
+        setMenu(!menu)
+    }
+
     return (
         <header>
             <Link to="/">
@@ -18,9 +29,9 @@ export const Header = () => {
                     <Link to="/products">PRODUCTOS</Link>
                 </li>
             </ul>
-            <div className='cart'>
+            <div className='cart' onClick={tooglemenu}>
                 <box-icon name="cart"></box-icon>
-                <span className='item_total'>0</span>
+                <span className='item_total'>{cart.length}</span>
             </div>
         </header>
     )
