@@ -13,4 +13,3 @@ export const Pages = () => {
     </section>
   )
 }
-export default Pages;
